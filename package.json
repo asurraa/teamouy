@@ -1,0 +1,26 @@
+{
+  "name": "teamouy",
+  "version": "1.0.0",
+  "description": "A collection of configuration files containing prettier, eslint, stylelint use internally at AsurRaa.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/umijs/fabric#readme",
+  "bugs": {
+    "url": "https://github.com/umijs/fabric/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:asurraa/teamouy.git"
+  },
+  "author": "LyhourChhen <ukamilove66@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "prettier": "prettier -c --write \"**/*\""
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31"
+  }
+}
