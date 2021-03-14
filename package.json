@@ -1,6 +1,6 @@
 {
   "name": "@asurraa/teamouy",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A collection of configuration files containing prettier, eslint, stylelint use internally at AsurRaa.",
   "main": "dist/index.js",
   "keywords": [
@@ -20,6 +20,7 @@
   "scripts": {
     "build": "tsc --build tsconfig.json",
     "deps": "yarn upgrade-interactive --latest",
+    "prepublish": "yarn build",
     "prettier": "prettier -c --write \"**/*\""
   },
   "dependencies": {
