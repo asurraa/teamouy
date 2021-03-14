@@ -29,8 +29,6 @@
     "src/setupTests.ts",
     "tslint:latest",
     "tslint-config-prettier",
-    "tsExample/**",
-    "jsExample/**"
   ],
   "include": ["src/*.json", "src/*.ts"]
 }
