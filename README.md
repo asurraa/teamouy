@@ -2,7 +2,7 @@
 
 # teamouy
 
-A collection of configuration files containing prettier, eslint, stylelint, editor
+A collection of configuration files containing prettier, eslint, stylelint.
 
 ## Installation
 
@@ -25,13 +25,6 @@ in `.eslintrc.js`
 ```js
 module.exports = {
   extends: [require.resolve('@asurraa/teamouy/dist/eslint')],
-
-  // in antd-design-pro
-  globals: {
-    ANT_DESIGN_PRO_ONLY_DO_NOT_USE_IN_YOUR_PRODUCTION: true,
-    page: true,
-  },
-
   rules: {
     // your rules
   },
