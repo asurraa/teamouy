@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "build/dist",
+    "outDir": "dist",
     "module": "esnext",
     "target": "esnext",
     "lib": ["esnext", "dom"],
@@ -17,10 +17,6 @@
     "skipLibCheck": true,
     "experimentalDecorators": true,
     "strict": true,
-    "paths": {
-      "@/*": ["./src/*"],
-      "@@/*": ["./src/.umi/*"]
-    }
   },
-  "exclude": ["node_modules", "build", "dist", "scripts", "src/.umi/*", "webpack", "jest"]
+  "exclude": ["node_modules", "build", "dist", "scripts", "webpack", "jest"]
 }
