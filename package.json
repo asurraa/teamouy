@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git@github.com:asurraa/teamouy.git"
   },
-  "author": "LyhourChhen <ukamilove66@gmail.com>",
+  "author": "@asurraa",
   "license": "MIT",
   "scripts": {
     "build": "tsc --build tsconfig.json",
