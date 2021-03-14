@@ -4,6 +4,20 @@
 
 A collection of configuration files containing prettier, eslint, stylelint, editor
 
+## Installation
+
+With NPM
+
+```bash
+npm i -D @asurraa/teamouy
+```
+
+With yarn
+
+```bash
+yarn add -D @asurraa/teamouy
+```
+
 # Use
 
 in `.eslintrc.js`
