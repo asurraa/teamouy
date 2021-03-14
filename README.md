@@ -36,10 +36,10 @@ module.exports = {
 in `.prettierrc.js`
 
 ```js
-const teamouy = require('@asurraa/fabric');
+const teamouy = require('@asurraa/teamouy');
 
 module.exports = {
-  ...fabric.prettier,
+  ...teamouy.prettier,
 };
 ```
 
