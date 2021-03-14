@@ -30,7 +30,7 @@ if (isTsProject) {
   try {
     isJsMoreTs(process.cwd()).then((jsMoreTs) => {
       if (!jsMoreTs) return;
-      console.log('这是一个 TypeScript 项目，如果不是请删除 tsconfig.json');
+      console.log('For TS with tsconfig.json');
     });
   } catch (e) {
     console.log(e);
