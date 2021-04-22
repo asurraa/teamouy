@@ -1,6 +1,6 @@
 [![NPM](https://img.shields.io/npm/v/@asurraa/teamouy.svg)](https://www.npmjs.com/package/@asurraa/teamouy)
 
-# teamouy
+# teamouy (Deprecated)
 
 A collection of configuration files containing prettier, eslint, stylelint.
 
